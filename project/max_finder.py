@@ -1,7 +1,7 @@
-def find_max(numbers):
+def find_min(numbers):
     if not numbers:
         return None
-    return max(numbers)
+    return min(numbers)
 
 
 if __name__ == "__main__":
@@ -11,4 +11,4 @@ if __name__ == "__main__":
         num = float(input("Введите число: "))
         numbers.append(num)
 
-    print("Максимум:", find_max(numbers))
+    print("Минимум:", find_min(numbers))
